@@ -33,7 +33,6 @@ public class GameManager : MonoBehaviour
     {
         score += amount;
 
-        // Se il punteggio supera 500, passa al livello 2
         if (score >= 1000 && currentLevel == 1)
         {
             currentLevel = 2;
